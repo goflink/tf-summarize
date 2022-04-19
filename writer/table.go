@@ -1,9 +1,9 @@
 package writer
 
 import (
+	"github.com/dineshba/terraform-plan-summary/terraform_state"
 	"github.com/olekukonko/tablewriter"
 	"io"
-	"terraform-plan-summary/terraform_state"
 )
 
 type TableWriter struct {

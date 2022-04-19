@@ -1,4 +1,4 @@
-module terraform-plan-summary
+module github.com/dineshba/terraform-plan-summary
 
 go 1.17
 

@@ -3,8 +3,8 @@ package parser
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/dineshba/terraform-plan-summary/terraform_state"
 	"os/exec"
-	"terraform-plan-summary/terraform_state"
 )
 
 type BinaryParser struct {

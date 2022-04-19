@@ -2,9 +2,9 @@ package writer
 
 import (
 	"fmt"
+	"github.com/dineshba/terraform-plan-summary/terraform_state"
 	"io"
 	"strings"
-	"terraform-plan-summary/terraform_state"
 )
 
 const SEPARATOR = "###################"

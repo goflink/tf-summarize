@@ -1,8 +1,8 @@
 package writer
 
 import (
+	"github.com/dineshba/terraform-plan-summary/terraform_state"
 	"io"
-	"terraform-plan-summary/terraform_state"
 )
 
 type Writer interface {

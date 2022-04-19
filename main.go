@@ -3,11 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/dineshba/terraform-plan-summary/parser"
+	"github.com/dineshba/terraform-plan-summary/reader"
+	"github.com/dineshba/terraform-plan-summary/writer"
 	"io"
 	"os"
-	"terraform-plan-summary/parser"
-	"terraform-plan-summary/reader"
-	"terraform-plan-summary/writer"
 )
 
 func main() {

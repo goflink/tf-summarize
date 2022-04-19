@@ -2,8 +2,9 @@ package parser
 
 import (
 	"strings"
-	"terraform-plan-summary/reader"
-	"terraform-plan-summary/terraform_state"
+
+	"github.com/dineshba/terraform-plan-summary/reader"
+	"github.com/dineshba/terraform-plan-summary/terraform_state"
 )
 
 type Parser interface {

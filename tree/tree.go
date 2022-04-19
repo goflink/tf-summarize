@@ -2,9 +2,9 @@ package tree
 
 import (
 	"fmt"
+	"github.com/dineshba/terraform-plan-summary/terraform_state"
 	"github.com/m1gwings/treedrawer/tree"
 	"strings"
-	"terraform-plan-summary/terraform_state"
 )
 
 type Tree struct {
